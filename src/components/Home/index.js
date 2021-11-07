@@ -8,7 +8,6 @@ const Home = () => {
         <div className="home">
             <div className="title">
                 <h1>
-                    <h4 className="subtitle">hello, I'm</h4>
                     <h1>Nerin<span id="kaur">kaur</span></h1>
                     <h4 className="subtitle">Full Stack Web Developer</h4>
                 </h1>
@@ -18,7 +17,7 @@ const Home = () => {
             </div>
             <div className="person">
                 <img src={`${process.env.PUBLIC_URL}/assets/images/picture-of-me.png`}
-                    alt="Me"
+                    alt="Profile Me"
                 />
             </div>
         </div>

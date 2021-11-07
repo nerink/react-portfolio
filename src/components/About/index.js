@@ -3,9 +3,9 @@ import React from 'react';
 export const About = () => {
     return (
         <div className="about">
-            <h2>Nice to meet you.</h2>
+            <h2>We should meet!</h2>
             <strong>
-                I am an enthusiastic fullstack web developer with a passion for creating web
+                I am a fullstack web developer with a passion for creating web
                 applications.
             </strong>
 
@@ -14,30 +14,22 @@ export const About = () => {
                 <div>
                     <strong>Languages</strong>
                     <li>JavaScript</li>
-                    {/* <li></li>
-                <li></li>
-                <li></li> */}
                 </div>
                 <div>
-                    <strong>Frameworks/Libraries</strong>
+                    <strong>Frameworks</strong>
                     <li>Node.js</li>
                     <li>Express.js</li>
-                    <li>React.js</li>
                     <li>Bootstrap</li>
                 </div>
                 <div>
                     <strong>Databases</strong>
                     <li>MySQL</li>
                     <li>MongoDB</li>
-                    {/* <li></li>
-                <li></li> */}
                 </div>
                 <div>
                     <strong>Tools</strong>
                     <li>Git</li>
                     <li>GitHub</li>
-                    <li>Webpack</li>
-                    <li>DevTools</li>
                 </div>
             </div>
         </div>
