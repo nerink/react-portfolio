@@ -8,25 +8,26 @@ const Projects = () => {
                 <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
                     <div className="card text-center h-100">
                         <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}/assets/images/`} className="card-img-top border-bottom"
+                            <img src={`${process.env.PUBLIC_URL}/assets/images/health-fusion.png`} className="card-img-top border-bottom"
                                 alt="" />
                         </div>
                         <div className="card-body mb-5 pl-0">
-                            <h3>Project 1</h3>
+                            <h3>Project 3</h3>
                             <p className="card-text">
-                                Info on Project 1 
+                            Health Fusion is a user-friendly IT health blog  application will allow users to share their most innovative and intimate ideas. Other users can build on those ideas by adding their input.
                             </p>
                             <p className="card-text">
                                 <small>
-                                    Features: 
+                                    Features: React,Apollo,MongoDB,Express,Node.js,Heroku,GraphQL
                                 </small>
                             </p>
 
                             <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
-                                <a href="" target="_blank" className="btn mr-2" rel="noreferrer">
+                                <a href="https://health-fusion1284.herokuapp.com" target="_blank" className="btn mr-2" rel="noreferrer">
                                     <i className="fas fa-laptop-code"></i></a>
-                                <a href="https://github.com/nerink" target="_blank" className="btn" rel="noreferrer">
+                                <a href="https://github.com/utor2021/health-fusion" target="_blank" className="btn" rel="noreferrer">
                                     <i className="fab fa-github"></i></a>
+                              
                             </div>
                         </div>
                     </div>
